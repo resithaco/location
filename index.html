@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>موقعي</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h2>موقعك الحالي:</h2>
-  <p id="location">جاري تحديد الموقع...</p>
-
-  <button onclick="getLocation()">اعرض موقعي</button>
+  <div class="container">
+    <h2>موقعك الحالي:</h2>
+    <div class="location-box">
+      <p id="location">جاري تحديد الموقع...</p>
+    </div>
+    <button onclick="getLocation()">اعرض موقعي</button>
+  </div>
 
   <script src="index.js"></script>
 </body>
