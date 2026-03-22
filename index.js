@@ -57,6 +57,7 @@ function getLocation() {
         🌆 المدينة: ${location.city} <br>
         🏠 الحي: ${location.district} <br>
         📌 الاسم الكامل: ${location.house} <br>
+         الشارع: ${location.street}<br>
         📮 الرمز البريدي: ${location.postcode}
         `;
         } catch (error) {
