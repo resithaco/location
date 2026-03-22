@@ -20,7 +20,6 @@ async function getCity(lat, lon) {
     city,
     district,
     street,
-    house_number,
     house
   };
 }
@@ -56,8 +55,7 @@ function getLocation() {
         🏙️ المحافظة: ${location.province} <br>
         🌆 المدينة: ${location.city} <br>
         🏠 الحي: ${location.district} <br>
-        📌 الاسم الكامل: ${location.house} <br>
-         الشارع: ${location.street}<br>
+          الشارع: ${location.street}<br>
         📮 الرمز البريدي: ${location.postcode}
         `;
         } catch (error) {
